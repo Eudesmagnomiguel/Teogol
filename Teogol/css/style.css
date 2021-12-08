@@ -1,0 +1,169 @@
+
+
+ .nav-table{margin-top: 20%;
+margin-left: 6%;
+
+}
+
+/* H2 Encontrar os melhores voos */
+.nav-table h2{
+margin-bottom: 20px;
+color: #2b2b2b;
+line-height: 1.6em;
+font-size: 1.5em;
+font-weight: 500;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Dividindo as tabelas em duas linhas */
+ .tabelas div{
+    display: inline-table;
+    margin-left:-5px;
+   color: #212529;
+   cursor: pointer;
+   font-weight: 400;
+   margin-top: -1px;
+   height: 60px;
+   padding: .8rem;
+}
+/* Definindo Tabelas com maior tamanhos */
+.tabelas .div2, .div3,  .div5, .div6{width: 400px;
+position: relative;
+border: 1px solid #dddddd;
+
+}
+
+/* Definindo Tabelas com menor tamanhos */
+.div1, .div4{width: 250px;
+    border: 1px solid #dddddd;
+    position: relative;
+}
+
+div{position: relative;}
+
+/* Colunas Hover quando encostar com o mouse nas colunas */
+
+.div1:hover{background-color: #2b2b2b;
+color: #fff;
+}
+
+/* Mudar as cores da letras hover */
+.div1:hover .trecho{color: white;}
+.div1:hover .ida{color: white;}
+
+.div2:hover .saindo{color: white;}
+.div3:hover .indo{color: white;}
+
+.div4:hover .passenger{color: white;}
+/*  Fim Mudar as cores da letras hover */
+
+/* hover Principal */
+div:hover {background-color: #2b2b2b;
+    color: #fff;
+transition: .5s ease-in-out;
+border:  1px solid rgb(40, 161, 236);
+}
+/* hover Principal */
+
+.div4:hover .adult{color: #fff;}
+.div5:hover .dataidas{color: white;}
+.div6:hover .datavoltas{color: white;}
+
+.div6:hover label.when{display: none;}
+.div6:hover input#when{display: block;
+background-color: #2b2b2b;
+color: #fff;
+border: 1px solid rgb(40, 161, 236);
+}                    
+.div5:hover label.when{display: none;}
+ .div5:hover input#when{display: block;
+background-color: #2b2b2b;
+color: #fff;
+border: 1px solid rgb(40, 161, 236);
+}                    
+/* textos dentro das Tables */
+
+.trecho-ida{margin-left: 3%;
+    color:#767676; 
+}
+
+.nav-table label{color:#767676;
+font-size: 0.88rem;
+}
+
+.ida{
+    margin-top: 2%;
+    font-size: 1.2em;
+    color:#2b2b2b;
+}
+
+/* definindo o tamanho da Letra passageiro */
+#passageiro{font-size: 1.2em; 
+    
+    position: absolute;
+}
+
+
+/* Posionando a seta para baixo a direita*/
+.arrow-down{position: absolute; right: 6%;
+bottom: 40px;
+}
+
+
+
+.indo{ 
+margin-left: 6%;
+}
+
+/* defindo o input onde quer ir */
+
+.onde{border: none;
+width: 100%;
+height:100%;
+top: 0%;
+left: 0%;
+position: absolute;
+text-indent:8%;
+background-color: transparent;
+font-size: 1em;
+}
+
+.colsaindo{margin-left: 6%;}
+.onde:hover{border: 1px solid rgb(40, 161, 236);}
+.onde:focus{background-color: transparent;
+border: 1px solid rgb(40, 161, 236);
+color: white;
+}
+
+/* Definindo Setas direcionadas */
+.setas{position: absolute;
+top:35%;
+right: -18px;
+border-radius: 50%;
+border: 1px solid #dddddd;
+background-color: #fff;
+z-index: 1;
+}
+.setas:hover {
+    transform: rotatez(-110deg);
+}
+
+/* Definindo Setas direcionadas */
+
+/* Posionando Imagem do Calendário */
+.calendar{position: absolute;
+bottom: 30%;
+right: 6%;
+}
+
+/* Definindo o input  Data */
+.data{margin-left: 3%;}
+.data input#when{position: absolute;
+bottom: 30%;
+font-size: 1.2em;
+display: none;
+}
+.data label.when{position: absolute;
+    bottom: 30%;
+    font-size: 1.2em;}
+
